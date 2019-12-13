@@ -62,3 +62,28 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Insert equation
+
+$$ Y= \beta_0+ |beta_1x $$
+
+```{r}
+knitr::kable(head(cars),
+             Caption="Top 6 rows of cars data set")
+        
+
+```
+
+ Insert Images
+
+#Here is an image inserted
+
+![suntstar](sunstar.png)
+## Insert an Animated GIF and Video
+
+![sunstar](sunstar.gif)
+
+
+
+#![sunstar](sunstar.mp4)
+
